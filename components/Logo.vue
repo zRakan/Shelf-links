@@ -1,29 +1,40 @@
 <template>
-    <el-row>
-        <el-col>
-            <el-avatar :size="150" src="/logo.webp" />
-        </el-col>
+    <div class="container">
+        <img src="/logo.webp" />
 
-        <el-col>
-            <el-text size="large">أهم الروابط في مكان واحد</el-text>
-        </el-col>
-    </el-row>
+        <span>أهم الروابط في مكان واحد</span>
+    </div>
 </template>
 
 <style scoped>
-    .el-row {
-        margin-bottom: 10px;
+    .container {
+        position: relative;
 
-        text-align: center;
+        display: flex;
+
+        align-items: center;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+        
         gap: 10px;
+        margin-bottom: 10px;
     }
 
-    .el-avatar {
+    img {
         border: 2px solid transparent;
         background-image: linear-gradient(45deg, #AE8941, #C5A250);
+
+        width: 146px;
+        height: 146px;
+
+        border-radius: 50%;
+        object-fit: cover;
     }
 
-    .el-text {        
+    span {
+        font-size: 16px;
+
         background: linear-gradient(45deg, #AE8941, #C5A250);
 
         /* Compatibility CSS */ 

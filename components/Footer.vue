@@ -4,7 +4,7 @@
 
 <template>
     <div id="footer-text">
-        <el-text>صُنع بإتقان من قِبل <a :href="link">Shelf Team</a></el-text>
+        <span>صُنع بإتقان من قِبل <a :href="link">Shelf Team</a></span>
     </div>
 </template>
 
@@ -25,13 +25,14 @@
             padding-top: 50px;
         }
 
-        .el-text {
+        span {
             font-size: 20px;
         }
     }
 
-    .el-text {
+    span {
         color: #191A1A;
+        font-size: 14px;
     }
 
     a {
@@ -51,7 +52,7 @@
     }
 
     @media screen and (min-width: 500px) {
-        .el-text {
+        span {
             font-size: 20px;
         }
     }

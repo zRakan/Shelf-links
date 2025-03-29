@@ -1,10 +1,12 @@
 <template>
-    <Logo />
+    <div>
+      <Logo />
 
-    <!-- Links -->
-    <SocialCard />
+      <!-- Links -->
+      <SocialCard />
 
-    <Footer />
+      <Footer />
+    </div>
 </template>
 
 <style>
@@ -19,7 +21,7 @@
       text-decoration: none;
     }
 
-    .el-text {
+    span {
       font-family: 'Cairo', sans-serif;
     }
 </style>
