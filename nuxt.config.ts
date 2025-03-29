@@ -1,7 +1,5 @@
 export default defineNuxtConfig({
-  modules: [
-    '@element-plus/nuxt'
-  ],
+  modules: ['@element-plus/nuxt', "@nuxt/fonts"],
 
   elementPlus: {
     themes: ['dark']
