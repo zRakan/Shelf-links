@@ -1,10 +1,6 @@
-<script setup>
-    const link = "https://rakan.dev";
-</script>
-
 <template>
     <div id="footer-text">
-        <span>صُنع بإتقان من قِبل <a :href="link">Shelf Team</a></span>
+        <span>صُنع بإتقان من قِبل <a href="https://rakan.dev">Shelf Team</a></span>
     </div>
 </template>
 
