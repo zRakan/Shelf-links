@@ -7,6 +7,9 @@
     { name: "QuestionShelf", link: "https://t.me/+sxCiRknMxW8zNGU8", img: "/links/shelf-book.webp" },
     { name: "SectionShelf", link: "https://t.me/+XT2m4V_GqyVjOTM0", img: "/links/shelf-book.webp" },
 
+    { name: "Shelf Internships #1", link: "https://chat.whatsapp.com/FVZNWAsEUs89QB3qUwnkiy", img: "/logo.webp" },
+    { name: "Shelf Internships #2", link: "https://chat.whatsapp.com/IKz46xwjR8cKme0QSiutBi", img: "/logo.webp" },
+
     //{ name: "ShelfCode", link: "https://chat.whatsapp.com/C4GAqsM7eKHE3ltSJYSZ85", img: "/links/shelf-code.webp" },
 
     // Others
