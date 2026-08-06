@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ["@nuxt/fonts"],
+  modules: ["@nuxt/fonts", "@vercel/analytics"],
 
   app: {
     head: {
@@ -51,5 +51,5 @@ export default defineNuxtConfig({
     }
   },
 
-  compatibilityDate: "2024-07-23"
+  compatibilityDate: "2026-08-05"
 })
